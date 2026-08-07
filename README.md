@@ -5,7 +5,7 @@ rolink is a discord bot that allows you to ban / kick players without having to 
 # setup
 
 ## 1. the roblox side
- Copy the code from `game/rolink.Lua` and paste it into a new server script called `rolink` and inside `ServerScriptService` 
+ Copy the code from `game/rolink.Lua` and paste it into a new server script called `rolink` inside `ServerScriptService` 
 
 also make sure you go to game settings > security and enable studio access to api services or messaging service wont work
 
@@ -25,4 +25,4 @@ once your `.env` is filled out, just run the bot:
 ```sh
 python main.py
 ```
-now commands should work using your bot
+now your game is synced up with your bot and you can ban / kick or do whatever without having to access the game
